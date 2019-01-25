@@ -66,12 +66,12 @@ header {
   display: flex;
   width: auto;
   align-items: center;
-  flex-flow: row nowrap;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
+  flex-flow: row nowrap;
 }
 
 header nav div span {
