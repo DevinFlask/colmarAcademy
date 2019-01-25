@@ -33,7 +33,7 @@ html {
 }
 
 body {
-
+  font-family: 'Lato', serif;
 }
 
 h2 {
@@ -63,25 +63,27 @@ span {
 /* Header */
 
 header {
-
+  display: flex;
+  width: auto;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 nav {
-
+  display: flex;
+  justify-content: space-between;
 }
 
 header nav div span {
 
 }
 
-.information {
-
-}
-
 /* logo and logoTitle */
 
 .logo {
-
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .logoTitleOne {
@@ -95,6 +97,10 @@ header nav div span {
 /* Banner */
 
 .bigBox .one{
+
+}
+
+.information {
 
 }
 
@@ -113,7 +119,7 @@ span.button {
 }
 
 .informationBox .one {
-  
+
 }
 
 .informationImage {
