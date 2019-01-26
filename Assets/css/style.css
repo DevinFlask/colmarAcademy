@@ -34,6 +34,7 @@ html {
 
 body {
   font-family: 'Lato', serif;
+  width: 100%;
 }
 
 h2 {
@@ -65,17 +66,24 @@ span {
 header {
   display: flex;
   width: auto;
+  height: 64px;
+  background-color: white;
   align-items: center;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
-  flex-flow: row nowrap;
+  flex-wrap: wrap;
 }
 
 header nav div span {
+  padding-left: 16px;
+  font-size: 1.5rem;
+}
 
+.nav {
+  padding-right: 24px;
 }
 
 /* logo and logoTitle */
@@ -84,14 +92,17 @@ header nav div span {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  padding-left: 24px;
 }
 
 .logoTitleOne {
-
+  font-size: 2rem;
+  color: rgb(120, 120, 120);
 }
 
 .logoTitleTwo {
-
+  font-size: 2rem;
+  color: rgb(180, 180, 180);
 }
 
 /* Banner */
