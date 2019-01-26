@@ -38,7 +38,8 @@ body {
 }
 
 h2 {
-
+  font-size: 3rem;
+  font-weight: 700;
 }
 
 h3 {
@@ -54,11 +55,13 @@ span {
 }
 
 .bigBox {
-
+  padding: 32px 24px;
+  width: auto;
 }
 
 .largeImage {
-
+  width: 60%;
+  height: auto;
 }
 
 /* Header */
@@ -108,15 +111,27 @@ header nav div span {
 /* Banner */
 
 .bigBox .one{
-
+  background-color: rgb(180, 180, 180);
 }
 
 .information {
-
+  color: rgb(60, 60, 60);
+  width: 40%;
+  padding-left: 24px;
+  
 }
 
 span.button {
+  color: white;
+  background-color: rgb(60, 60, 60);
+  padding: 8px 0px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 
+.information p {
+  font-size: 2rem;
 }
 
 /* Information */
