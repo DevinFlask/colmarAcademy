@@ -41,15 +41,15 @@ h2 {
 }
 
 h3 {
-
+  font-size: 2rem;
 }
 
 p {
-
+  font-size: 1.5rem;
 }
 
 span {
-
+  font-size: 1.5rem;
 }
 
 .bigBox {
@@ -80,7 +80,6 @@ nav {
 
 header nav div span {
   padding-left: 16px;
-  font-size: 1.5rem;
 }
 
 .nav {
