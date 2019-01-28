@@ -86,13 +86,14 @@ nav {
 
 header nav div.nav span {
   padding-left: 16px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
 }
 
 .nav {
+  padding-left: 50rem;
   padding-right: 24px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 /* logo and logoTitle */
@@ -141,7 +142,8 @@ header nav div.nav span {
 span.button {
   color: white;
   background-color: rgb(60, 60, 60);
-  padding: 8px 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   display: flex;
   justify-content: center;
   width: 100%;
