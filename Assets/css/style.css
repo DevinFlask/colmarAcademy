@@ -198,7 +198,7 @@ span.button {
 /* Big Box */
 .coursesCatalog {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-flow: row wrap;
   padding: 32px 40px;
 }
@@ -207,6 +207,8 @@ span.button {
   display: flex;
   flex-flow: column;
   padding: 32px 32px;
+  width: 25%;
+  height: auto;
 }
 /* Individual Content */
 .coursesImage {
