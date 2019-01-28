@@ -58,6 +58,7 @@ span {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
+  padding: 24px 32px;
 }
 
 .largeImage {
@@ -115,7 +116,7 @@ header nav div span {
 }
 
 .largeImage .one {
-  padding: 24px 32px;
+
 }
 
 .information {
