@@ -133,7 +133,8 @@ header nav div.nav span {
   height: auto;
   padding: 0px 24px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: center;
   flex-direction: column;
 }
 
