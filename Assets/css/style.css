@@ -41,14 +41,17 @@ body {
 h2 {
   font-size: 4rem;
   font-weight: 700;
+  color: #2a2a2a;
 }
 
 h3 {
   font-size: 3rem;
+  color: #2a2a2a;
 }
 
 p {
   font-size: 2rem;
+  color: #939393;
 }
 
 span {
@@ -244,11 +247,15 @@ span.button {
 /* Footer */
 
 footer {
-
+  padding: 16px 24px;
+  width: auto;
+  height: 5rem;
 }
 
 .footerBox {
-
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 .copyright {
