@@ -57,7 +57,7 @@ span {
   height: auto;
   width: 100%;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   padding: 24px 32px;
 }
 
