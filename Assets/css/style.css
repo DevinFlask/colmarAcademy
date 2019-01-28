@@ -185,8 +185,10 @@ span.button {
 
 /* Courses */
 
-.bigBox .three{
-
+#thirdBig {
+  background-color: #d3d3d3;
+  background-size: cover;
+  background-position: center;
 }
 
 .sectionTitle {
