@@ -118,7 +118,8 @@ header nav div.nav span {
 
 .bigBox .one{
   background-color: rgb(180, 180, 180);
-
+  background-size: cover;
+  background-position: center;
 }
 
 .largeImage .one img {
@@ -133,6 +134,8 @@ header nav div.nav span {
   padding-left: 24px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 span.button {
