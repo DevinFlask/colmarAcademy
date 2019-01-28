@@ -129,8 +129,10 @@ header nav div.nav span {
 .information {
   color: rgb(60, 60, 60);
   width: 40%;
+  height: auto;
   padding-left: 24px;
-
+  display: flex;
+  align-items: center;
 }
 
 span.button {
@@ -144,6 +146,8 @@ span.button {
 
 .information p {
   font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 /* Information */
