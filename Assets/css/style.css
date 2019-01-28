@@ -84,7 +84,7 @@ nav {
   flex-wrap: wrap;
 }
 
-header nav div span {
+header nav div.nav span {
   padding-left: 16px;
 }
 
