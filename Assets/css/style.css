@@ -86,13 +86,13 @@ nav {
 
 header nav div.nav span {
   padding-left: 16px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .nav {
   padding-right: 24px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
 }
 
 /* logo and logoTitle */
