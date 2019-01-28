@@ -200,6 +200,7 @@ span.button {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 32px;
 }
 
 /* Big Box */
@@ -214,7 +215,7 @@ span.button {
   display: flex;
   flex-flow: column;
   padding: 32px 32px;
-  width: 33%;
+  width: 25%;
   height: auto;
 }
 /* Individual Content */
@@ -240,7 +241,7 @@ span.button {
 
 }
 
-.largeImage .three video {
+.largeImage video {
   width: 60%;
   height: auto;
 }
