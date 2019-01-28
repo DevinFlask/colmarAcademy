@@ -160,7 +160,9 @@ span.button {
 }
 
 .informationBox {
-
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
 }
 
 .informationBox .one {
@@ -168,11 +170,15 @@ span.button {
 }
 
 .informationImage {
-
+  height: auto;
+  width: 35%;
+  padding: 0px 16px;
 }
 
 .informationContent{
-
+  width: 65%;
+  height: auto;
+  padding: 0px 16px;
 }
 
 /* Courses */
