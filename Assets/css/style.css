@@ -231,6 +231,11 @@ span.button {
 
 }
 
+.largeImage .three video {
+  width: 60%;
+  height: auto;
+}
+
 /* Footer */
 
 footer {
