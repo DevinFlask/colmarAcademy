@@ -34,7 +34,8 @@ html {
 
 body {
   font-family: 'Lato', serif;
-  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 h2 {
