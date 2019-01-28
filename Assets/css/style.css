@@ -90,6 +90,9 @@ header nav div.nav span {
 
 .nav {
   padding-right: 24px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 /* logo and logoTitle */
@@ -115,6 +118,7 @@ header nav div.nav span {
 
 .bigBox .one{
   background-color: rgb(180, 180, 180);
+
 }
 
 .largeImage .one img {
