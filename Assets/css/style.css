@@ -165,7 +165,19 @@ span.button {
 }
 
 .informationBox .one {
+  background-color: rgb(180, 180, 180);
+  background-size: cover;
+  background-position: center;
+}
 
+#practiceTitle {
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+
+#practiceSub {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .informationImage {
@@ -245,6 +257,15 @@ span.button {
   width: 60%;
   height: auto;
   padding-right: -20px;
+}
+
+#urbanTitle {
+  padding-top: 24px;
+}
+
+#urbanContent {
+  padding-bottom: 32px;
+  padding-top: 8px;
 }
 
 /* Footer */
