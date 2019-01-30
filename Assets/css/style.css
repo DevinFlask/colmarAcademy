@@ -222,13 +222,14 @@ span.button {
   display: flex;
   flex-flow: column;
   padding-bottom: 32px;
+  padding-right: 32px;
   width: 25%;
   height: auto;
 }
 /* Individual Content */
 .coursesImage {
   height: auto;
-  width: 90%;
+  width: 87%;
 }
 
 .coursesContent {
