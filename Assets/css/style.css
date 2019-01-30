@@ -129,7 +129,7 @@ header nav div.nav span {
   color: rgb(60, 60, 60);
   width: 40%;
   height: auto;
-  margin: 0px 24px;
+  padding: 24px 24px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
