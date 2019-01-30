@@ -210,16 +210,18 @@ span.button {
   display: flex;
   flex-flow: column;
   padding: 0px 32px;
-  width: 250px;
+  width: 25%;
   height: auto;
 }
 /* Individual Content */
 .coursesImage {
   height: auto;
+  width: 100%;
 }
 
 .coursesContent {
   background-color: white;
+  width: 100%;
 }
 
 .coursesContent h3 {
