@@ -74,11 +74,9 @@ span {
 /* Header */
 
 header {
-  display: flex;
   width: auto;
   height: 64px;
   background-color: white;
-  align-items: center;
 }
 
 nav {
