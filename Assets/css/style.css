@@ -70,6 +70,132 @@ span {
   width: 60%;
   height: auto;
 }
+/* styling for phone screens */
+@media only screen and (max-width: 479px) {
+
+  header nav span {
+    display: hidden;
+  }
+
+  .navIcons {
+    display: space-around;
+  }
+
+  header {
+    height: 60px;
+    width: auto;
+  }
+
+  .largeImage {
+    width: 100%;
+  }
+
+  .information {
+    width: 100%;
+    padding: 32px 16px;
+  }
+
+  span.button {
+    background-color: rgb(120, 120, 120);
+  }
+
+  .information p {
+    font-size: 2rem;
+    padding-top: 32px;
+    padding-bottom: 24px;
+  }
+
+  .largeImage .two {
+    display: hidden;
+  }
+
+  .informationImage {
+    height: auto;
+    width: 100%;
+    padding: 16px 16px;
+  }
+
+  .informationContent{
+    width: 100%;
+    height: auto;
+    padding-top: 48px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 64px;
+  }
+  .mobileRef {
+    padding-bottom: -32px;
+  }
+
+  .sectionTitle {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 16px;
+  }
+
+  /* Big Box */
+  .coursesCatalog {
+    display: block;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 32px;
+  }
+  /* Small Box */
+  .courses {
+    padding: 8px 0px;
+    width: 24%;
+    height: auto;
+  }
+  /* Individual Content */
+  .coursesImage {
+    display: hidden;
+  }
+
+  .coursesContent {
+    background-color: white;
+    width: 100%;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    padding-top: 16px;
+  }
+
+  .coursesContent p {
+    display: hidden;
+  }
+  /* Thesis */
+  .largeImage video {
+    width: 100%;
+    height: auto;
+    padding-bottom: 24px;
+  }
+
+  .information .two {
+    display: hidden;
+  }
+
+  #urbanTitle, #urbanContent {
+    display: hidden;
+  }
+  /* footer */
+  footer {
+    padding: 16px 16px;
+    width: auto;
+    height: auto;
+  }
+
+  .footerBox {
+    display: block;
+  }
+
+  .footerNav {
+    display: hidden;
+  }
+}
 
 /* Header */
 
@@ -91,6 +217,10 @@ header nav div.nav span {
 
 .nav {
   padding-right: 24px;
+}
+
+.navIcons {
+  display: hidden;
 }
 
 /* logo and logoTitle */
@@ -143,7 +273,7 @@ span.button {
   padding-bottom: 8px;
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: auto;
 }
 
 .information p {
@@ -162,12 +292,11 @@ span.button {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
+  border-left: 1px solid lightgray;
 }
 
 .informationBox .one {
   background-color: rgb(180, 180, 180);
-  background-size: cover;
-  background-position: center;
 }
 
 #practiceTitle {
@@ -183,7 +312,7 @@ span.button {
 .informationImage {
   height: auto;
   width: 35%;
-  padding: 0px 16px;
+  padding: 16px 16px;
 }
 
 .informationContent{
@@ -223,7 +352,7 @@ span.button {
   flex-flow: column;
   padding-bottom: 32px;
   padding-right: 32px;
-  width: 25%;
+  width: 24%;
   height: auto;
 }
 /* Individual Content */
