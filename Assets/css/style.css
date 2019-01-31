@@ -353,13 +353,13 @@ span.button {
   flex-flow: column;
   padding-bottom: 32px;
   padding-right: 32px;
-  width: 22%;
+  width: 25%;
   height: auto;
 }
 /* Individual Content */
 .coursesImage {
   height: auto;
-  width: 87%;
+  width: 85%;
 }
 
 .coursesContent {
