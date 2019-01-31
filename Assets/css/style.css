@@ -71,7 +71,7 @@ span {
   height: auto;
 }
 /* styling for phone screens */
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 500px) {
 
   header nav span {
     display: none;
