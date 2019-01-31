@@ -74,7 +74,7 @@ span {
 @media only screen and (max-width: 479px) {
 
   header nav span {
-    display: hidden;
+    display: none;
   }
 
   .navIcons {
@@ -106,7 +106,7 @@ span {
   }
 
   .largeImage .two {
-    display: hidden;
+    display: none;
   }
 
   .informationImage {
@@ -153,7 +153,7 @@ span {
   }
   /* Individual Content */
   .coursesImage {
-    display: hidden;
+    display: none;
   }
 
   .coursesContent {
@@ -165,7 +165,7 @@ span {
   }
 
   .coursesContent p {
-    display: hidden;
+    display: none;
   }
   /* Thesis */
   .largeImage video {
@@ -175,11 +175,11 @@ span {
   }
 
   .information .two {
-    display: hidden;
+    display: none;
   }
 
   #urbanTitle, #urbanContent {
-    display: hidden;
+    display: none;
   }
   /* footer */
   footer {
@@ -193,7 +193,7 @@ span {
   }
 
   .footerNav {
-    display: hidden;
+    display: none;
   }
 }
 
@@ -219,8 +219,8 @@ header nav div.nav span {
   padding-right: 24px;
 }
 
-div.nav img {
-  display: hidden;
+.navIcons {
+  display: none;
 }
 
 /* logo and logoTitle */
@@ -266,6 +266,10 @@ div.nav img {
   flex-direction: column;
 }
 
+.bannerInfo {
+  width: 65%;
+}
+
 span.button {
   color: white;
   background-color: rgb(60, 60, 60);
@@ -274,7 +278,7 @@ span.button {
   margin-right: 16px;
   display: flex;
   justify-content: center;
-  width: 50%;
+  width: 65%;
   height: auto;
 }
 
@@ -360,7 +364,7 @@ span.button {
 /* Individual Content */
 .coursesImage {
   height: auto;
-  width: 85%;
+  width: 80%;
 }
 
 .coursesContent {
@@ -373,6 +377,7 @@ span.button {
 
 .coursesContent h3 {
   padding-top: 16px;
+
 }
 
 .coursesContent p {
